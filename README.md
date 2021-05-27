@@ -1,8 +1,11 @@
 # Purpose
--  download of electricity usage data from cloud.onemeter.com and upload the data to InfluxDB data in regular frequency.
-- Designed for openHAB (while this is not a blocker to use it with InfluxDB and Grafana only or with some adjustments with Domoticz
+Script leverages (OneMeter)[https://onemeter.com/] device and data collected with OneMeter cloud
+
+*The script:*
+- Downloads electricity usage data from cloud.onemeter.com and uploads the data to InfluxDB data in regular frequency.
+- It's primarly designed for InfluxDB, Grafana and openHAB (while this is not a blocker to use it with InfluxDB and Grafana only or with some adjustments with Domoticz
 ,HomeAssistant, etc)
-- Storage: InfluxDB 2
+
 
 ## Highlevel description of how the script works and is configured
 
@@ -34,11 +37,6 @@
 ## Hints for configuration:
 
 - The script should be run in a defined frequency eg. every 24hrs
+- to run the script use the *.sh or *.bat script depending on OS; requires adjustments in terms of paths
 
-In case of questons use gitHub issues or post it at https://forum.smartnydom.pl
-
-
-
-
-
-
+In case of questons, use gitHub issues or post it at https://forum.smartnydom.pl
