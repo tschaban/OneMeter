@@ -1,5 +1,5 @@
 # Purpose
--  electricity usage data from cloud.onemeter.com and upload the data to InfluxDB data in regular frequency.
+-  download of electricity usage data from cloud.onemeter.com and upload the data to InfluxDB data in regular frequency.
 - Designed for openHAB (while this is not a blocker to use it with InfluxDB and Grafana only or with some adjustments with Domoticz
 ,HomeAssistant, etc)
 - Storage: InfluxDB 2
@@ -14,7 +14,6 @@
 - The script may send the log after data upload to the cell phone using Pushover messaging solutions.
 
 ## What data are currently processed
-
 - Total energy used
 - Total energy used tariff 1
 - Total energy used tariff 2
@@ -34,5 +33,12 @@
 
 ## Hints for configuration:
 
-The script should be run in a defined frequency eg. every 24hrs
+- The script should be run in a defined frequency eg. every 24hrs
+
+In case of questons use gitHub issues or post it at https://forum.smartnydom.pl
+
+
+
+
+
 
