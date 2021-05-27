@@ -1,5 +1,5 @@
 # Purpose
-Script leverages (OneMeter)[https://onemeter.com/] device and data collected with OneMeter cloud
+Script leverages OneMeter https://onemeter.com/ device and data collected with OneMeter cloud
 
 *The script:*
 - Downloads electricity usage data from cloud.onemeter.com and uploads the data to InfluxDB data in regular frequency.
@@ -27,8 +27,12 @@ Script leverages (OneMeter)[https://onemeter.com/] device and data collected wit
 
 ## Requirments
 
+- OneMeter Device https://onemeter.com/
+- Account at https://cloud.onemeter.com (to get the Device ID and API Token)
 - InfluxDB 2: installed and configured
 - PHP engine installed on a machine where the script is executed 
+- 
+
 
 ### Optional configuration
 
